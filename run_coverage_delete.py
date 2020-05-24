@@ -1,0 +1,1 @@
+CoverageDelete().run('pet-project')

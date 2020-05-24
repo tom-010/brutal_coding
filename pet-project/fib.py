@@ -1,7 +1,7 @@
 
 def fib(n):
     if n < 0:
-        pass 
+        pass # pragma: no cover
 
     if n <= 2:
         return 1
