@@ -1,6 +1,7 @@
 class Cleaner():
     
     def clean(self, lines, to_do):
+        print(to_do)
         res = []
         line_no = 0
         for line in lines:

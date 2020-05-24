@@ -1,8 +1,6 @@
 import unittest
 from cleaner import Cleaner
 
-
-
 class CleanerTest(unittest.TestCase):
 
     def setUp(self):
