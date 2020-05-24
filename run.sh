@@ -1,4 +1,5 @@
 #!/bin/bash
+source virtualenv/coverage_delete/bin/activate
 
 if [ $# -eq 0 ]
   then
