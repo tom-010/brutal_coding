@@ -47,7 +47,7 @@ def write(filename, content):
             f.write("%s" % item)
 
 # perform coverage delete
-cleaner = Cleaner()
+cleaner = Cleaner('pass # pragma: no cover\n')
 for filename in files.keys():
     content = read(filename)
     content = cleaner.clean(content, files[filename])
